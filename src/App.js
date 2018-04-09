@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Wrapper from "./components/Wrapper";
-import Card1 from "./components/Card1";
-import Card2 from "./components/Card2";
-import Card3 from "./components/Card3";
+import Card1 from "./components/Card1/";
+import Card2 from "./components/Card2/";
+import Card3 from "./components/Card3/";
 import logo from './logo.svg';
 import './App.css';
 
@@ -21,6 +21,5 @@ class App extends Component {
     );
   }
 }
-
 
 export default App;
